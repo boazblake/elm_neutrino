@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "neutrino": "^7.3.2",
+    "neutrino-preset-elm": "^2.1.0"
+  },
+  "scripts": {
+    "start": "neutrino start --use neutrino-preset-elm",
+    "build": "neutrino build --use neutrino-preset-elm"
+  },
+  "name": "neutrino-elm",
+  "version": "1.0.0",
+  "description": "elm starter",
+  "main": "index.js",
+  "author": "boaz blake",
+  "license": "MIT",
+  "dependencies": {
+    "neutrino-middleware-eslint": "^7.3.2",
+    "neutrino-middleware-hot": "^7.3.2"
+  }
+}
